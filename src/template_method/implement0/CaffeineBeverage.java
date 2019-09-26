@@ -4,8 +4,8 @@ public abstract class CaffeineBeverage {
     final void prepareRecipe(){
         boilWater();
         brew();
-        addCondiments();
         pureInCup();
+        addCondiments();
     }
 
     abstract void brew();
