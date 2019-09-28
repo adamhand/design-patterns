@@ -1,4 +1,4 @@
-package state;
+package state.implement0;
 
 public class ConcreteState1 implements State {
     @Override
